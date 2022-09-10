@@ -1,0 +1,12 @@
+name: 'OpenApi Insomnia'
+description: 'Generates Insomnia files for OpenApi Specs'
+inputs:
+  parent:
+    description: 'Parent for request group'
+    required: true
+  baseURLs:
+    description: 'BaseURLs'
+    required: true
+runs:
+  using: 'node16'
+  main: 'index.js'
